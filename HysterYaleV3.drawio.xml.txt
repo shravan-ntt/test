@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.4">
+  <diagram name="Trade Copilot Architecture" id="8jL1z0NgI0rSKNbZWodo">
+    <mxGraphModel dx="1543" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-1" value="Layer 1: Data Ingestion and Context Building" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;fontSize=14;fontStyle=1;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="1760" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-2" value="Layer 2: Processing and Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontSize=14;fontStyle=1;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="1760" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-3" value="Layer 3: Delivery and Interaction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=14;fontStyle=1;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="780" width="1760" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-4" value="Context Feed Component" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-5" value="CBP ACE Portal Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="390" y="380" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-6" value="Customs Brokers Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="380" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-7" value="HY Manufacturing Countries" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="390" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-8" value="Top Suppliers &amp; Trade Routes" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-9" value="Allowed Primary Sources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="320" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-10" value="US Sources&#xa;• CBP Trade News&#xa;• CROSS&#xa;• CSMS&#xa;• HTSUS&#xa;• Federal Register&#xa;• White House&#xa;• USITC&#xa;• ITA/USTR&#xa;• Truth Social" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#4d90fe;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="380" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-11" value="Canada Sources&#xa;• CBSA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#4d90fe;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="760" y="380" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-12" value="Mexico Sources&#xa;• ANAM&#xa;• Secretaría de Economía&#xa;• DOF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#4d90fe;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="760" y="430" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-13" value="Brazil Sources&#xa;• RFB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#4d90fe;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="910" y="380" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-14" value="EU Sources&#xa;• DG TAXUD&#xa;• EBTI Database&#xa;• Netherlands&#xa;• Italy&#xa;• UK HMRC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#4d90fe;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="910" y="430" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-15" value="Asia Sources&#xa;• China GACC&#xa;• Japan (TBD)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#4d90fe;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-16" value="Global Sources&#xa;• WCO Explanatory Notes&#xa;  (Paid Subscription)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#4d90fe;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="450" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-17" value="Allowed Secondary Sources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="320" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-18" value="Law Firms&#xa;• Miller &amp; Chevalier&#xa;• Sandler Travis&#xa;• Holland &amp; Knight&#xa;• Steptoe LLP&#xa;• Baker McKenzie&#xa;• Wiley Rein&#xa;• Cassidy Levy Kent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="380" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-19" value="News &amp; Publications&#xa;• Trade Law Daily&#xa;• National Law Review&#xa;• tariffcheck.org&#xa;• Yahoo Finance&#xa;  Tariff Tracker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="380" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-20" value="Data Acquisition Tools" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="320" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-21" value="Azure Logic Apps&#xa;(Scheduled Pulls)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#0078d4;fontColor=#ffffff;strokeColor=#0078d4;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="380" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-22" value="Power Automate&#xa;(Email/RSS Parsing)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#0078d4;fontColor=#ffffff;strokeColor=#0078d4;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="380" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-23" value="Azure Functions&#xa;(APIs/Web Scraping)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#0078d4;fontColor=#ffffff;strokeColor=#0078d4;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="380" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-24" value="Azure Storage&#xa;• Blob Storage&#xa;• Azure SQL DB&#xa;• Cosmos DB&#xa;• Data Lake" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#0078d4;fontColor=#ffffff;strokeColor=#0078d4;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="440" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-25" value="Change Detection Engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="600" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-26" value="Diff-Checking&#xa;Algorithms&#xa;(Python difflib)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-27" value="Historical&#xa;Versioning&#xa;Database" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="660" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-28" value="Alert Threshold&#xa;Configuration&#xa;(SME Defined)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-29" value="AI Summarization &amp; Processing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="600" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-30" value="Azure OpenAI&#xa;(GPT Models)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#0078d4;fontColor=#ffffff;strokeColor=#0078d4;" vertex="1" parent="1">
+          <mxGeometry x="910" y="660" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-31" value="Prompt Engineering&#xa;&amp; Context Integration" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="670" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-32" value="Relevance Scoring &amp; Filtering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="600" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-33" value="Azure Cognitive Search&#xa;(Semantic Indexing)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#0078d4;fontColor=#ffffff;strokeColor=#0078d4;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="660" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-34" value="Vector Database&#xa;(Embeddings)" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-35" value="Microsoft Copilot Studio Integration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="820" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-36" value="Microsoft Teams&#xa;Integration&#xa;(Chat &amp; Channels)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#742774;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="470" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-37" value="Outlook&#xa;Integration&#xa;(Email Alerts)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#0072c6;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="610" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-38" value="SharePoint&#xa;Locked Site&#xa;(Trade Team Only)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#038387;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="750" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-39" value="Natural Language Query Interface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="820" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-40" value="Query Processing&#xa;Engine" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="880" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-41" value="Response&#xa;Generation&#xa;(Citations)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="880" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-42" value="Alert &amp; Notification System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="820" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-43" value="Push Notifications&#xa;(High Priority)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ff6666;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="880" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-44" value="Scheduled&#xa;Summaries&#xa;(Daily/Weekly)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffcc66;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="880" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-45" value="Monitoring &amp; Maintenance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="820" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-46" value="Azure Monitor&#xa;(Performance)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#0078d4;fontColor=#ffffff;strokeColor=#0078d4;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="880" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-47" value="Application&#xa;Insights&#xa;(Logging)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#0078d4;fontColor=#ffffff;strokeColor=#0078d4;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="880" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-48" value="Security &amp; Access Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#ff0000;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="980" width="1420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-49" value="Azure AD&#xa;Authentication" style="shape=shield;whiteSpace=wrap;html=1;fillColor=#ff0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="830" y="970" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-50" value="Role-Based&#xa;Access Control&#xa;(Trade Team Only)" style="shape=shield;whiteSpace=wrap;html=1;fillColor=#ff0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="960" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-51" value="Data Encryption&#xa;(At Rest/In Transit)" style="shape=shield;whiteSpace=wrap;html=1;fillColor=#ff0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078d4;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="MjL1jVJ0dnffBHLKN3fg-4" target="MjL1jVJ0dnffBHLKN3fg-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078d4;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="MjL1jVJ0dnffBHLKN3fg-9" target="MjL1jVJ0dnffBHLKN3fg-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078d4;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="MjL1jVJ0dnffBHLKN3fg-17" target="MjL1jVJ0dnffBHLKN3fg-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078d4;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="MjL1jVJ0dnffBHLKN3fg-25" target="MjL1jVJ0dnffBHLKN3fg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078d4;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="MjL1jVJ0dnffBHLKN3fg-29" target="MjL1jVJ0dnffBHLKN3fg-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078d4;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="MjL1jVJ0dnffBHLKN3fg-32" target="MjL1jVJ0dnffBHLKN3fg-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="MjL1jVJ0dnffBHLKN3fg-26" target="MjL1jVJ0dnffBHLKN3fg-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="MjL1jVJ0dnffBHLKN3fg-30" target="MjL1jVJ0dnffBHLKN3fg-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MjL1jVJ0dnffBHLKN3fg-60" value="Development Timeline (8 Weeks)&#xa;• Weeks 1-2: Infrastructure Setup&#xa;• Weeks 3-5: Pipeline Build &amp; Prompt Engineering&#xa;• Weeks 6-8: Integration &amp; Testing&#xa;&#xa;Cost Estimate: ~$25,000&#xa;Initial Scope: 5-10 Priority Sources" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffffcc;strokeColor=#f0ad4e;align=left;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="820" width="160" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
