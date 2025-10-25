@@ -1,0 +1,37 @@
+  Background
+
+  Hanover Insurance, a 25-year client of NTT DATA, operates a Specialty E&S (Excess & Surplus) Underwriting business that processes high-complexity insurance submissions. Each submission contains multiple documents in various formats (PDFs,
+  Word documents, Excel spreadsheets, and emails) that require detailed review to extract critical business attributes such as property details, coverage types, loss history, and policyholder information. These extracted attributes must be
+  fed into Hanover's Pega scoring engine to enable automated risk assessment and underwriting decisions. Prior to this solution, underwriters manually reviewed documents and typed extracted data into Pega, a time-intensive process prone to
+  human error and inconsistent interpretation across different underwriters.
+
+  ---
+  Client Need
+
+  Hanover's Underwriting business required deep Property & Casualty (P&C) domain expertise to understand the intricacies of how GenAI could transform their E&S submission processing. The manual review and data entry process created
+  bottlenecks that delayed underwriting decisions and prevented underwriters from focusing on their core competency: risk assessment and decision-making. Hanover needed an experienced team that could manage day-to-day GenAI application
+  maintenance, optimize performance, identify opportunities for efficiency gains, and ensure continuous improvement of their AI-powered attribute extraction system. The solution needed to handle multiple document formats seamlessly, provide
+  consistent and accurate extraction, and integrate directly with their existing Pega scoring infrastructure through secure APIs.
+
+  ---
+  NTT DATA Solution
+
+  NTT DATA provided a GenAI Innovation Pod, including a Technical Lead and specialized AI Engineers, to develop and support a comprehensive 3-tier microservices architecture specifically designed for E&S submission processing. The solution
+  consists of ESDataExtractorSvc for multi-format document parsing using Azure Document Intelligence OCR, ESDocIndexingSvc for semantic indexing with vector embeddings and Azure Search, and ESInferencingSvc which leverages GPT-4o-mini to
+  intelligently extract business attributes and critical entities. The AI Architect-led engineering team delivers full-time monitoring through custom health endpoints integrated with Azure Monitor, proactive performance optimization through
+  continuous model tuning, and ongoing infrastructure support to ensure reliable operation. The team collaborates closely with Hanover to maintain and enhance the system using Python, API integrations, and Azure cloud services.
+
+  ---
+  Benefits to Hanover
+
+  Enhanced Efficiency: The automated 3-tier pipeline eliminates manual document review and data entry, enabling straight-through processing from document submission to Pega scoring, which allows underwriters to focus their expertise on
+  decision-making rather than administrative tasks.
+
+  Cost Optimization: The solution uses GPT-4o-mini for cost-effective inference while maintaining high accuracy, and the continuous optimization efforts by NTT's Innovation Pod identify and implement performance improvements that reduce
+  cloud operational costs.
+
+  Innovation: The platform provides consistent, standardized attribute extraction across all document formats (PDF, DOCX, XLSX, EML) with built-in PII redaction and security compliance, delivering structured data to Pega's scoring engine via
+   REST APIs for reliable, repeatable risk assessment.
+
+  Expert Support: Access to NTT DATA's dedicated team of GenAI professionals with deep P&C domain knowledge ensures high-quality development, proactive monitoring with custom health endpoints, and continuous platform evolution to meet
+  changing business needs.
